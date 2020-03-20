@@ -8,7 +8,7 @@
     tools:context=".Fragments.BichosFragment" >
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/buttonCao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/buttonGato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/buttonLeao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -41,10 +41,10 @@
         android:background="#F5E9B9"
         android:src="@drawable/leao"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCao" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/buttonMacaco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -53,10 +53,10 @@
         android:background="#F5E9B9"
         android:src="@drawable/macaco"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonGato" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/buttonOvelha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -64,10 +64,10 @@
         android:layout_marginTop="41dp"
         android:src="@drawable/ovelha"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLeao" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/buttonVaca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -75,7 +75,7 @@
         android:layout_marginRight="50dp"
         android:src="@drawable/vaca"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMacaco" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -85,5 +85,5 @@
         android:src="@drawable/direitos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonOvelha" />
 </androidx.constraintlayout.widget.ConstraintLayout>

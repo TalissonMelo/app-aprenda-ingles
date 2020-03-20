@@ -8,7 +8,7 @@
     tools:context=".Fragments.NumerosFragment">
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/button1"
         android:layout_width="150dp"
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="160dp"
         android:layout_marginTop="16dp"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/button3"
         android:layout_width="150dp"
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
@@ -40,10 +40,10 @@
         android:background="@android:color/transparent"
         android:src="@drawable/tres"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/button4"
         android:layout_width="150dp"
         android:layout_height="160dp"
         android:layout_marginTop="8dp"
@@ -52,10 +52,10 @@
         android:background="@android:color/transparent"
         android:src="@drawable/quatro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/button5"
         android:layout_width="150dp"
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
@@ -64,10 +64,10 @@
         android:background="@android:color/transparent"
         android:src="@drawable/cinco"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/button6"
         android:layout_width="150dp"
         android:layout_height="160dp"
         android:layout_marginTop="8dp"
@@ -76,5 +76,5 @@
         android:background="@android:color/transparent"
         android:src="@drawable/seis"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
